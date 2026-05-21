@@ -10,9 +10,10 @@
         "dev": "pnpm --parallel -r dev",
         "build": "pnpm -r build",
         "lint": "pnpm -r lint",
-        "clean": "pnpm -r clean" 
+        "clean": "pnpm -r clean"
     },
     "devDependencies": {
+        "@types/node": "^25.9.1",
         "typescript": "^5.4.0"
     }
 }
